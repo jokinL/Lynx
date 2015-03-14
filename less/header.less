@@ -1,0 +1,140 @@
+/*
+Theme Name: Lynx
+Theme URI: http://www.tesokdesogn.es
+Description: Lynx theme / Licencia Creative Commons Atribución 4.0 Internacional http://creativecommons.org/licenses/by/4.0/
+Author: Jokin Lopez
+Author URI: http://www.tesokdesogn.es
+Version: 1.0
+*/
+
+// Import less variable
+@import url('mixins.less');
+
+/*#############################################################################
+###############################################################################
+#####	HEADER
+###############################################################################
+###############################################################################
+#############################################################################*/
+.header{
+	background-color: @colorMagenta;
+	color: @colorWhite;
+	overflow: auto;
+	position: relative;
+	.arrow{
+		  display: inline-block;
+		  position: absolute;
+		  bottom: 30px;
+		  top: initial;
+		  text-align: center;
+		  font-size: 110%;
+		  border-radius: 50%;
+		  border: solid rgb(255, 255, 255) 2px;
+		  padding: 10px;
+		  margin: 0 0 0 50%;
+		  left: -18px;
+		  &:keyframes girar{}
+	}
+}
+	/*####################################################
+	######################################################
+	MENU DESKTOP
+	######################################################
+	####################################################*/
+	.menu-menu-container{
+		display: none;
+	}
+	/*####################################################
+	######################################################
+	MENU MOBILE
+	######################################################
+	####################################################*/
+	.header__logo{
+		margin: 18px 0 0 20px;
+		float: left;
+	}
+	.header__mob{
+		.header__navbutton{
+			margin-top: 60px;
+			.menu-menu-container{ /*Mobile menu*/
+				display: block;
+			}
+			.header__navbutton__checkbox{
+				display:block;
+				position: absolute;
+				top: 22px;
+				right: 20px;
+			}
+			.header__navbutton__line{
+				height:2px;
+				width:30px;
+				margin-bottom:5px;
+				background-color: @colorWhite50;
+				transition: background-color 0.3s linear;
+			}
+		}
+		/*MOBILE MENU*/
+		.menu-menu-container{
+			display: none;
+			background-color: darken(@colorMagenta, 10%);
+			width: 100%;
+			.menu-item{
+				&:first-child{
+					a{
+						border-top: solid 3px @colorMagentaShadown;
+					}
+				}
+			}
+			a{
+				color: @colorWhite;
+				display: block;
+				padding: 10px 20px;
+				border-top: solid 1px @colorMagentaShadown;
+			}
+		}
+	}
+	/*####################################################
+	######################################################
+	HEADER SLOGAN
+	######################################################
+	####################################################*/
+	.header__slogan{
+		padding: 0% 15%;
+		text-align: center;
+	}
+		.header__slogan__title{
+			span{
+				font-weight: 200;
+			}
+		}
+		.header__slogan__description{
+			font-weight: 200;
+			margin-top: 5%;
+		}
+		.header__slogan__buttom{
+			background-color: @colorOrange;
+			border-radius: 3px;
+			color: @colorWhite;
+			display: inline-block;
+			margin-top: 5%;
+			padding: 10px 20px;
+		}
+
+
+
+
+
+/*#############################################################################
+###############################################################################
+#####	COMPANY INTRO
+###############################################################################
+###############################################################################
+#############################################################################*/
+.company-intro{
+	text-align: center;
+	.company-intro__title{}
+	.company-intro__description{
+		float: none;
+		margin: 0 auto;
+	}
+}
