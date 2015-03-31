@@ -1,4 +1,20 @@
 	<footer>
+		<div class="container">
+			<!-- Widgets barra lateral -->
+			<div class="col-sm-4">
+				<?php if ( ! dynamic_sidebar( 'Footer 1' ) ) {} ?>
+			</div>
+			<div class="col-sm-4">
+				<?php if ( ! dynamic_sidebar( 'Footer 2' ) ) {} ?>
+			</div>
+			<div class="col-sm-4">
+				<?php if ( ! dynamic_sidebar( 'Footer 3' ) ) {} ?>
+			</div>
+			<div class="col-sm-4">
+				<?php if ( ! dynamic_sidebar( 'Footer 4' ) ) {} ?>
+			</div>
+		</div>
+
 		<p>copy; <?php bloginfo('name'); ?>, <?=date('Y');?>. Mi primer tema de WP.</p>
 	</footer>
 

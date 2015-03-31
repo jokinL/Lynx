@@ -8,6 +8,8 @@ Version: 1.0
 -->
 
 <?php
+
+
 // Registro del menú de WordPress
 	add_theme_support( 'nav-menus' );
 
@@ -18,10 +20,9 @@ Version: 1.0
 	        )
 	    );
 	}
-?>
 
-<?php
-//  Right Sidebar
+
+//  RIGTH SIDEBAR
  if(function_exists('register_sidebar'))
       register_sidebar(array(
       'name' => 'Right Sidebar',
@@ -30,20 +31,55 @@ Version: 1.0
       'before_title' => '<h3>',
       'after_title' => '</h3>',
  ));
-?>
 
-<?php
-	//Habilitar thumbnails
-	add_theme_support('post-thumbnails');
-	set_post_thumbnail_size(150, 150, true);
-?>
+// FOOTER WIDGETS
+ if ( function_exists('register_sidebar') )
+       register_sidebar(array(
+		'name'=>'Footer 1',
+        'before_widget' => '<liclass="widget">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+  ));
+ if ( function_exists('register_sidebar') )
+       register_sidebar(array(
+		'name'=>'Footer 2',
+        'before_widget' => '<liclass="widget">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+  ));
+  if ( function_exists('register_sidebar') )
+       register_sidebar(array(
+		'name'=>'Footer 3',
+        'before_widget' => '<liclass="widget">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+  ));
+ if ( function_exists('register_sidebar') )
+       register_sidebar(array(
+		'name'=>'Footer 4',
+        'before_widget' => '<liclass="widget">',
+        'after_widget' => '</li>',
+        'before_title' => '<h3 class="widgettitle">',
+        'after_title' => '</h3>',
+  ));
 
-<?php
-	// Permitir comentarios encadenados
-	function enable_threaded_comments(){
-	    if (is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
-	       wp_enqueue_script('comment-reply');
-	    }
-	}
-	add_action('get_header', 'enable_threaded_comments');
+
+
+//Habilitar thumbnails
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(150, 150, true);
+
+// Permitir comentarios encadenados
+function enable_threaded_comments(){
+    if (is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
+       wp_enqueue_script('comment-reply');
+    }
+}
+add_action('get_header', 'enable_threaded_comments');
+
+
+
 ?>

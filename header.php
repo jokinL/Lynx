@@ -32,8 +32,3 @@
 		</div><!--//header__slogan-->
 		<span class="arrow glyphicon glyphicon-chevron-down"></span>
 	</header>
-	
-	<section class="container company-intro">
-		<h2 class="company-intro__title">WHAT WE CAN DO FOR YOU!</h2>
-		<p class="company-intro__description col-lg-6">We're a close team of creatives, designers & developers who work together to create beautiful, engaging digital experiences. We take pride in delivering only the best.</p>
-	</section>
