@@ -1,1 +1,166 @@
-#noMargin{margin-top:0;margin-right:0;margin-bottom:0;margin-left:0}#noPadding{padding-top:0;padding-right:0;padding-bottom:0;padding-left:0}.header{background-color:#eb2142;color:#fff;overflow:auto;position:relative}.header .arrow{display:inline-block;position:absolute;bottom:30px;top:initial;text-align:center;font-size:110%;border-radius:50%;border:solid #fff 2px;padding:10px;margin:0 0 0 50%;left:-18px}.menu-menu-container{display:none}.header__logo{margin:18px 0 0 20px;float:left}.header__mob .header__navbutton{margin-top:60px}.header__mob .header__navbutton .menu-menu-container{display:block}.header__mob .header__navbutton .header__navbutton__checkbox{display:block;position:absolute;top:22px;right:20px}.header__mob .header__navbutton .header__navbutton__line{height:2px;width:30px;margin-bottom:5px;background-color:rgba(255,255,255,0.5);transition:background-color .3s linear}.header__mob .menu-menu-container{display:none;background-color:#c71230;width:100%}.header__mob .menu-menu-container .menu-item:first-child a{border-top:solid 3px #b21630}.header__mob .menu-menu-container a{color:#fff;display:block;padding:10px 20px;border-top:solid 1px #b21630}.header__slogan{padding:0 15%;text-align:center}.header__slogan__title span{font-weight:200}.header__slogan__description{font-weight:200;margin-top:5%}.header__slogan__buttom{background-color:#f39c12;border-radius:3px;color:#fff;display:inline-block;margin-top:5%;padding:10px 20px}.company-intro{text-align:center}.company-intro .company-intro__description{float:none;margin:0 auto}
+/*
+Theme Name: Lynx
+Theme URI: http://www.tesokdesogn.es
+Description: Lynx theme / Licencia Creative Commons Atribución 4.0 Internacional http://creativecommons.org/licenses/by/4.0/
+Author: Jokin Lopez
+Author URI: http://www.tesokdesogn.es
+Version: 1.0
+*/
+/*
+Theme Name: Lynx
+Theme URI: http://www.tesokdesogn.es
+Description: Lynx theme / Licencia Creative Commons Atribución 4.0 Internacional http://creativecommons.org/licenses/by/4.0/
+Author: Jokin Lopez
+Author URI: http://www.tesokdesogn.es
+Version: 1.0
+*/
+/*#############################################################################
+###############################################################################
+#####	FONTS
+###############################################################################
+###############################################################################
+#############################################################################*/
+/*#############################################################################
+###############################################################################
+#####	VARIABLES # COLORES
+###############################################################################
+###############################################################################
+#############################################################################*/
+/*####################################################
+######################################################
+COLORS
+######################################################
+####################################################*/
+/*####################################################
+######################################################
+MIXINS
+######################################################
+####################################################*/
+#noMargin {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+#noPadding {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+/*#############################################################################
+###############################################################################
+#####	HEADER
+###############################################################################
+###############################################################################
+#############################################################################*/
+.header {
+  background-color: #eb2142;
+  color: #ffffff;
+  overflow: auto;
+  position: relative;
+}
+.header .arrow {
+  display: inline-block;
+  position: absolute;
+  bottom: 30px;
+  top: initial;
+  text-align: center;
+  font-size: 110%;
+  border-radius: 50%;
+  border: solid #ffffff 2px;
+  padding: 10px;
+  margin: 0 0 0 50%;
+  left: -18px;
+}
+/*####################################################
+	######################################################
+	MENU DESKTOP
+	######################################################
+	####################################################*/
+.menu-menu-container {
+  display: none;
+}
+/*####################################################
+	######################################################
+	MENU MOBILE
+	######################################################
+	####################################################*/
+.header__logo {
+  margin: 18px 0 0 20px;
+  float: left;
+}
+.header__mob {
+  /*MOBILE MENU*/
+}
+.header__mob .header__navbutton {
+  margin-top: 60px;
+}
+.header__mob .header__navbutton .menu-menu-container {
+  /*Mobile menu*/
+  display: block;
+}
+.header__mob .header__navbutton .header__navbutton__checkbox {
+  display: block;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+.header__mob .header__navbutton .header__navbutton__line {
+  height: 2px;
+  width: 30px;
+  margin-bottom: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: background-color 0.3s linear;
+}
+.header__mob .menu-menu-container {
+  display: none;
+  background-color: #c71230;
+  width: 100%;
+}
+.header__mob .menu-menu-container .menu-item:first-child a {
+  border-top: solid 3px #b21630;
+}
+.header__mob .menu-menu-container a {
+  color: #ffffff;
+  display: block;
+  padding: 10px 20px;
+  border-top: solid 1px #b21630;
+}
+/*####################################################
+	######################################################
+	HEADER SLOGAN
+	######################################################
+	####################################################*/
+.header__slogan {
+  padding: 0% 15%;
+  text-align: center;
+}
+.header__slogan__title span {
+  font-weight: 200;
+}
+.header__slogan__description {
+  font-weight: 200;
+  margin-top: 5%;
+}
+.header__slogan__buttom {
+  background-color: #f39c12;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 5%;
+  padding: 10px 20px;
+}
+/*#############################################################################
+###############################################################################
+#####	COMPANY INTRO
+###############################################################################
+###############################################################################
+#############################################################################*/
+.company-intro {
+  text-align: center;
+}
+.company-intro .company-intro__description {
+  float: none;
+  margin: 0 auto;
+}
