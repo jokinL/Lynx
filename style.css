@@ -1,9 +1,9 @@
 /*
 Theme Name: Lynx
-Theme URI: http://www.tesokdesogn.es
+Theme URI: http://www.tesokdesign.es
 Description: Lynx theme / Licencia Creative Commons Atribución 4.0 Internacional http://creativecommons.org/licenses/by/4.0/
 Author: Jokin Lopez
-Author URI: http://www.tesokdesogn.es
+Author URI: http://www.tesokdesign.es
 Version: 1.0
 */
 /*EXTERNAL RESOURCES*/
@@ -13,3 +13,4 @@ Version: 1.0
 /*LYNX THEME CSS*/
 @import url(css/general.css);
 @import url(css/header.css);
+@import url(css/home.css);
