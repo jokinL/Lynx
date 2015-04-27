@@ -45,3 +45,6 @@ function sloganPosition(){
 	);
 }
 */
+
+//  ADD NEW CLASS TO FORMS INPUTS WHITE COL-SM-6-WRAP CLASS
+$('.col-sm-6-wrap').addClass('col-sm-6');

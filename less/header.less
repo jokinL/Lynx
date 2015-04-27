@@ -16,11 +16,19 @@ Version: 1.0
 ###############################################################################
 ###############################################################################
 #############################################################################*/
+.header--image{
+	background-image: url(../imgs/codign.jpg);
+	background-size: cover;
+}
 .header{
-	background-color: @colorMagenta;
+	background-color: fade(@colorMagenta, 85%);
 	color: @colorWhite;
 	overflow: auto;
 	position: relative;
+	.header__slogan__title{
+		color: @colorWhite;
+		font-size: 600%;
+	}
 	.arrow{
 		  display: inline-block;
 		  position: absolute;

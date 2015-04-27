@@ -9,6 +9,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 </head>
 <body>
+	<div class="header--image">
 	<header class="header">
 		<div class="header__logo">
 			<img src="http://localhost/lynx/wp-content/uploads/2015/03/logo.png" alt="">
@@ -32,3 +33,4 @@
 		</div><!--//header__slogan-->
 		<span class="arrow glyphicon glyphicon-chevron-down"></span>
 	</header>
+	</div>

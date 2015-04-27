@@ -15,7 +15,7 @@
 			</div>
 		</div>
 
-		<p>copy; <?php bloginfo('name'); ?>, <?=date('Y');?>. Mi primer tema de WP.</p>
+		<div class="container">copy; <?php bloginfo('name'); ?>, <?=date('Y');?>. Mi primer tema de WP.</div>
 	</footer>
 
 	<?php wp_footer(); ?>
